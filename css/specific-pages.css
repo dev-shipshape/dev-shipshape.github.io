@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+table#surc-posters,
+table#surc-participating-programs {
+  border-collapse: collapse;
+  width: 100%;
+  }
+#surc-posters td,
+#surc-participating-programs td {
+  padding: 4px 10px 5px 10px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  }
+#surc-posters tr td,
+#surc-posters tr th {
+  font-size: 90%;
+  }
+#surc-posters tr td:first-child {
+  width: 4%;
+  }
+
+/* deadlines table */
+body.page-node-5192 .views-table {
+  margin-bottom: 2em;
+  }
+body.page-node-5192 .views-table td {
+  vertical-align: top;
+  border: 1px solid #ddd;
+  line-height: 1.2em;
+  }
+body.page-node-5192 .views-table td p {
+  line-height: 1.2em;
+  padding: 0;
+  margin: 0;
+  }
+body.page-node-5192 .views-table caption {
+  padding-bottom: 0;
+  }
+body.page-node-5192 .block-views .view-deadline-summary .add-event a,
+#block-system-main .view-deadline-summary .add-event a {
+  display: block;
+  background-color: #fffae5;
+  border: 1px solid #dddddd;
+  font-weight: 300;
+  padding: 0px 3px;
+  font-size: 90%;
+}
+
+/* SROP scholars */
+.view-srop-scholars-table caption {
+  color: #333333;
+  background-color: #f5f5f5;
+  text-transform: uppercase;
+  margin: 0px;
+  width: 98%;
+  text-align: left;
+  padding: 1%;
+  border: 1px solid #ddd;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+  cursor: pointer;
+  }
+
+/* GC Manual */
+body.node-type-book a.nohref {
+  color: #333;
+  }
+body.node-type-book .book-navigation {
+  margin: 1em 0 1.5em 0;
+  }
+body.node-type-book .field-item > ol,
+body.node-type-book .field-item > ul {
+  margin-left: 25px;
+  padding-left: 0;
+  }
+body.node-type-book.page-node-3 .field-item > ol {
+  list-style-position: inside;
+  }
+body.node-type-book #book-title {
+  font-family: "Sanchez","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  }
+body.node-type-book h2.book-page-title {
+  background-color: #fafafa;
+  padding: 0px;
+  margin: 0px;
+  border-top: 60px solid #fff;
+  }
+#gc-manual-navtop,
+body.page-node-3 #block-system-main {
+  margin-bottom: 2em;
+  }
+body.node-type-book div.book-page-tab-content {
+  background-color: #fafafa;
+  margin-top: 0px;
+  }
+body.node-type-book #gc-manual-pseudotabs {
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  }
+body.node-type-book #gc-manual-pseudotabs ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  }
+body.node-type-book #gc-manual-pseudotabs li {
+  float: left;
+  font-weight: normal;
+  list-style: none;
+  margin: 0.3em 0 0 0;
+  height: 3.05em;
+  min-height: 3.35em;
+  padding: 0;
+  }
+body.node-type-book #gc-manual-pseudotabs li a,
+body.node-type-book #gc-manual-pseudotabs li a:visited {
+  float: left;
+  display: block;
+  height: 3.05em;
+  min-height: 3.35em;
+  line-height: 3.35em;
+  padding: 0 14px;
+  text-decoration: none;
+  border: none;
+  font-size: .95em;
+  background-color: #e9eaec;
+  color: #212124;
+  position: relative;
+  border-top: 2px solid #fff;
+  border-left: solid 1px #fff;
+  }
+body.node-type-book #gc-manual-pseudotabs li a:hover,
+body.node-type-book #gc-manual-pseudotabs li.active a:hover {
+  text-decoration: none;
+  border: none;
+  background-color: #d5d6d8;
+  color: #212124;
+  border-top: 2px solid #fff;
+  border-left: solid 1px #fff;
+  }
+body.node-type-book #gc-manual-pseudotabs li.active a:hover {
+  border-top: 2px solid #fdd300;
+  background-color: #fafafa;
+  }
+body.node-type-book #gc-manual-pseudotabs li.active a,
+body.node-type-book #gc-manual-pseudotabs li.active a:visited {
+  height: 3.05em;
+  min-height: 3.35em;
+  line-height: 3.35em;
+  font-weight: normal;
+  border-top: 2px solid #fdd300;
+  border-left: solid 1px #fff;
+  background-color: #fafafa;
+  color: #212124;
+  font-size: .95em;
+  font-weight: normal;
+  top: -0.025em;
+}
+body.node-type-book #gc-manual-pseudotabs li a {
+  border-left: solid 1px #fff;
+  }
+body.node-type-book #gc-manual-pseudotabs li a:focus,
+body.node-type-book #gc-manual-pseudotabs li a:active {
+  outline: none;
+  }
+
+/* Annual reports */
+body.page-node-5399 .right-image,
+body.page-node-5399 .left-image {
+  clear: both;
+  float: left;
+
+  }
+body.page-node-5399 .right-image > a {
+  float: right;
+  display: block;
+  margin: 15px 0 0 40px;
+  }
+body.page-node-5399 .left-image > a {
+  float: left;
+  display: block;
+  margin: 15px 40px 0 0;
+  }
+
+/* Program data pages */
+.group-progdata-phd-cu-placement,
+.group-progdata-phd-placement,
+.group-progdata-phd-compl,
+.field-name-field-progdata-prog-url {
+  margin-top: 1.5em;
+  }
+
+/* CIRTL */
+div#cnc-local-site {
+  font-family: Vollkorn, serif;
+  color: #333333;
+  line-height: 1.5em;
+  }
+#cnc-local-site p {
+  font-size:18px;
+  color: #333333;
+  }
+#cirtl-steering tbody tr td:first-child {
+  min-width: 120px;
+  }
+#cnc-local-site .btn--primary {
+  background-color: #337ab7;
+  }
+#cnc-local-site .btn--primary:focus,
+#cnc-local-site .btn--primary:hover {
+  background-color:#2d6594;
+  color:#fff
+  }
+#cnc-local-site .text__color--purple {
+  color:#337ab7;
+  }
+#cnc-local-site .event-tile__type {
+  color:#337ab7;
+  }
+#cnc-local-site .date-square__month {
+  color:#337ab7;
+  }
+#cnc-local-site .text--content {
+  font-family:Vollkorn,serif;
+  }
+#cnc-local-site .main-content__header h1 {
+  font-family: Vollkorn, serif;
+  }
+#cnc-local-site h3 {
+  font-family: Vollkorn, serif;
+  }
+
+/* Advisory Board */
+.view-id-advisory_board.view-display-id-page_1 td {
+  vertical-align: top;
+  }
+.view-id-advisory_board.view-display-id-page_1 td.views-field-field-image-attachments {
+  padding-top: 35px;
+  }
+@media (max-width: 767px) {
+.view-id-advisory_board.view-display-id-page_1 td {
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  }
+.view-id-advisory_board.view-display-id-page_1 tr.even,
+.view-id-advisory_board.view-display-id-page_1 tr.odd {
+  background-color: #fff;
+  border: none;
+  }
+}
+
+/* Person nodes */
+body.node-type-person .field-name-field-image-attachments {
+  float: right;
+  margin: 7px 0px 40px 40px;
+  }
+
+
+/* Program Data pages--TTD tables */
+.group-progdata-phd-compl tbody td {
+  font-family: 'Montserrat','Helvetica Neue', Arial, sans-serif !important;
+  text-align: center;
+  }

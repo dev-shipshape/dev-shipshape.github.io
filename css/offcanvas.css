@@ -1,0 +1,125 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  /*overflow-x: hidden;  Prevent scroll on narrow devices */
+}
+
+footer {
+  padding: 30px 0;
+}
+
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -25%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -25%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 25%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 25%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 25%; /* 6 columns */
+	background: #212124;
+	height: 100%;
+	z-index: 1;
+  }
+  
+  .sidebar-offcanvas ul.menu {
+	   position: absolute;
+	   top: 100px;
+	   width: 100%;
+	   -webkit-padding-start: 0px !important;
+	   padding-left: 0px;
+  }
+  
+ .sidebar-offcanvas .list-group {
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+ .sidebar-offcanvas .list-group a {
+ color: white;
+ }
+ 
+.sidebar-flyout {padding: 15px 18px;}
+.sidebar-offcanvas ul {-webkit-padding-start: 0px !important;}
+.sidebar-offcanvas ul.menu li {
+    margin: 0em;
+}
+
+.divider-light {
+height: 1px;
+margin: 9px 0;
+background-color: #777;
+}
+
+
+#sidebar .list-group li {
+list-style-type: none;
+padding: 0 0 0 10px;	
+}
+
+#sidebar .list-group li a {
+color: white;
+}
+
+#sidebar .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#sidebar .list-group-item {
+    display: block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 0px 
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	
+.active .sidebar-offcanvas {
+    width: 90%;
+    z-index: 1000;
+}
+	
+}
