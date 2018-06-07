@@ -1,6 +1,3 @@
-(function ($) {
-  // Original JavaScript code.
-  
 /*
  *  jQuery OwlCarousel v1.3.2
  *
@@ -136,9 +133,9 @@ if (typeof Object.create !== "function") {
             if (base.options.lazyLoad === true) {
                 base.lazyLoad();
             }
-             if (base.options.autoHeight === true) {
+            if (base.options.autoHeight === true) {
                 base.autoHeight();
-            } 
+            }
             base.onVisibleItems();
 
             if (typeof base.options.afterAction === "function") {
@@ -1224,7 +1221,6 @@ if (typeof Object.create !== "function") {
                     }, 0);
                 }
             }
-		
 
             function checkImage() {
                 iterations += 1;
@@ -1514,5 +1510,3 @@ if (typeof Object.create !== "function") {
         afterLazyLoad: false
     };
 }(jQuery, window, document));
-
-})( jQuery );

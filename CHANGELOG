@@ -1,0 +1,49 @@
+10/03/16 -- 
+Forked Starting Node Timestamp: 1475255808
+Forked highest nid: 1573
+js working, but carousel broken -- fixed
+fixed missing css file to carousel. theme ready for templating :)
+
+***
+
+10/10/16
+
+Added Menu Attributes module
+
+***
+
+10/12/16
+
+Pruned menu <Portals> for top nav and sidenav
+Moved all Professional Development over to <Professional Development> menu
+
+
+***
+
+10/17/16
+
+Added to fields to content type Success Story:
+
+Program field
+Short Description field
+Profile image field
+  
+  
+***
+
+10/24/16
+
+changed size requirements for Homepage feature > Large homepage image > maximum image resolution > 1500 x 1000
+changed file size requirements Homepage feature > Large homepage image > maximum upload size > 800KB
+
+added new image and cutline to nodes:
+7696
+7706
+7856
+
+***
+
+10/27/16
+
+Changed hompage_feature_thumbnail style --> hampage_feature scale & crop 1000x545
+remove small homepage image from content type homepage feature
