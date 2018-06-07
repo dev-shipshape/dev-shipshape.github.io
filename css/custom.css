@@ -1030,7 +1030,7 @@ clear: both;}
 .stats {
 	background-color: white;
 	height: 500px;
-	/*background-image: url('../img/gc/noisy_grid_grey_blue.png');*/
+	background: url("https://images.pexels.com/photos/776390/pexels-photo-776390.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat scroll top center/ cover;
 	padding: 15% 20px 0 0;
 	text-align: center;
 }
