@@ -255,7 +255,7 @@ overflow-x: hidden;
 
 }
 
-.nav-item a {font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
+.nav-item a {font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif !important;}
 .nav-item:hover a {}
 
 
@@ -268,7 +268,7 @@ overflow-x: hidden;
 }
 
 .navbar span.nolink {
-	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-family: font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif !important;
 	position: relative;
     display: block;
     padding: 10px 15px;
@@ -460,7 +460,7 @@ border: none;
 background: #ccccce;
 color: black;
 font-weight: 700;
-font-family: Josefin Sans, arial, sans-serif !important;
+font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif !important;
 border: 0px;
 width: 40px;
 }
@@ -558,13 +558,13 @@ height: 0px;
 .gs-result .gs-title, .gs-result .gs-title * {
     color: #212124 !important;
 	font-weight: 700;
-font-family: Josefin Sans, arial, sans-serif !important;
+font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif !important;
 font-size: 25px !important;
 text-decoration: none !important;
 }
 
 .gsc-control-cse, .gsc-control-cse .gsc-table-result {
-	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
 
@@ -623,7 +623,7 @@ border-left: 0px;
 
 .sidebar li a {
 margin-left: 20px;
-font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .sidebar-section {
