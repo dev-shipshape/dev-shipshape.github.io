@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
 @import url('https://assets.uiowa.edu/css/gotham.css');
+@import url('https://assets.uiowa.edu/css/archer.css');
 
 html,
 body {
@@ -1297,7 +1298,7 @@ footer.footer .copyright p.small {
 
 body.vintage {
   /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Archer A', 'Archer B', 'Georgia', serif;
   font-weight: 400;
 }
 body.vintage h1,
