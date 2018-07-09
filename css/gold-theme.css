@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+@import url('https://assets.uiowa.edu/css/gotham.css');
 
 html,
 body {
@@ -7,7 +8,8 @@ body {
 }
 
 body {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 18px;
   font-weight: 300;
 }
@@ -61,7 +63,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -189,7 +192,10 @@ fieldset[disabled] .btn-primary.active {
 
 /* Nav */
 
-.menu li {font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
+.menu li {
+	/*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;*/
+	font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+}
 
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -240,7 +246,8 @@ fieldset[disabled] .btn-primary.active {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 24px;
@@ -348,7 +355,8 @@ header.banner .intro-content {
   position: relative;
 }
 header.banner .brand-name {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 55px;
   line-height: 55px;
   text-transform: uppercase;
