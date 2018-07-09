@@ -65,7 +65,7 @@ h4,
 h5,
 h6 {
   /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+	
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -549,7 +549,7 @@ height: auto;
   display: inline-block;
 }
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -759,7 +759,7 @@ height: auto;
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 5px;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
