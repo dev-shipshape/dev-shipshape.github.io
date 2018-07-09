@@ -1296,7 +1296,8 @@ footer.footer .copyright p.small {
 }
 
 body.vintage {
-  font-family: "Vollkorn", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 400;
 }
 body.vintage h1,
@@ -1310,7 +1311,8 @@ body.vintage p.lead,
 body.vintage header .brand-name,
 body.vintage .portfolio-carousel .project-name,
 body.vintage .testimonials .testimonial-author .name {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 400 !important;
   text-transform: uppercase !important;
 }
