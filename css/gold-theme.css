@@ -1,9 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); /* Gotham Narrow Placeholder */
+@import url('https://fonts.googleapis.com/css?family=Arvo'); /* Archer Placeholder */
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
-@import url('https://assets.uiowa.edu/css/gotham.css');
-@import url('https://assets.uiowa.edu/css/archer.css');
-@import url('https://cloud.typography.com/698376/6012572/css/fonts.css');
-@import url('https://cloud.typography.com/698376/6812572/css/fonts.css');
+
 
 html,
 body {
@@ -11,8 +11,8 @@ body {
 }
 
 body {
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
 }
@@ -66,13 +66,11 @@ h3,
 h4,
 h5,
 h6 {
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	
   font-weight: 900;
   text-transform: uppercase;
 }
 
-h1.title {padding-bottom: 50px;}
+h1.title {padding: 50px 0px;}
 
 @media (min-width: 481px) {
   h1 {
@@ -108,6 +106,10 @@ hr.tint {
 
 hr.grey {
   border-color: #2a4359;
+}
+
+hr.white {
+  border-color: white;
 }
 
 @media (min-width: 768px) {
@@ -199,16 +201,15 @@ fieldset[disabled] .btn-primary.active {
 .navbar-nav>li>a {
     padding-top: 25px;
     padding-bottom: 20px;
-}	
+}
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: -15px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 }
 
 .menu li {
-	/*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;*/
-	font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-fixed-top {
@@ -236,8 +237,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .navbar-default,
 .navbar-inverse {
-  border: none;
-  border-bottom: 0px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navbar-default .navbar-toggle,
 .navbar-inverse .navbar-toggle {
@@ -260,8 +260,7 @@ fieldset[disabled] .btn-primary.active {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 24px;
@@ -283,8 +282,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
-  background-color: #080808;
+  color: #ddd;
 }
 .navbar-inverse .navbar-nav>li>a:focus {
   color: #212124;
@@ -329,6 +327,23 @@ fieldset[disabled] .btn-primary.active {
   outline: none;
 }
 
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #212124;
+    background-color: #fcd116;
+}
+
+.navbar-inverse .btn-primary:hover, .navbar-inverse .btn-primary.focus, .btn-primary:active,
+.navbar-inverse.btn-primary.active, .navbar-inverse .open > .dropdown-toggle.btn-primary,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: #212124 !important;
+    background-color: #fcd116;
+    border-color: #fcd116;
+}
+
+/* Gradient Headers */
+
 header.colors {
   padding: 120px 0px 80px 0px;
 }
@@ -369,8 +384,8 @@ header.banner .intro-content {
   position: relative;
 }
 header.banner .brand-name {
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
   font-size: 55px;
   line-height: 55px;
   text-transform: uppercase;
@@ -551,7 +566,7 @@ height: auto;
   display: inline-block;
 }
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -761,7 +776,7 @@ height: auto;
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 5px;
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -1214,7 +1229,10 @@ footer.footer {
   -o-background-size: cover;
   padding: 50px 0 0px 0;
 }
-footer.footer a {
+
+.footertop {margin-bottom: 50px;}
+
+.footer a {
   color: rgba(255, 255, 255, 0.7);
 }
 footer.footer a:hover {
@@ -1299,8 +1317,7 @@ footer.footer .copyright p.small {
 }
 
 body.vintage {
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Archer A', 'Archer B', 'Georgia', serif;
+  font-family: 'Arvo', serif;
   font-weight: 400;
 }
 body.vintage h1,
@@ -1314,8 +1331,8 @@ body.vintage p.lead,
 body.vintage header .brand-name,
 body.vintage .portfolio-carousel .project-name,
 body.vintage .testimonials .testimonial-author .name {
-  /*font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', 'Arial', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400 !important;
   text-transform: uppercase !important;
 }
